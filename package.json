@@ -1,0 +1,14 @@
+{
+  "name": "newport_children_school",
+  "version": "1.0.0",
+  "description": "website for newport children school ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
