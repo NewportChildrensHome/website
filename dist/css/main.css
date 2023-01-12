@@ -106,7 +106,7 @@ input[class^="btn-"]:hover {
 body {
   font-family: "Ubuntu", sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background: #f4f4f4; }
 
 a {
   text-decoration: none;
@@ -130,6 +130,7 @@ img {
   text-transform: uppercase; }
 
 #main-nav {
+  font-family: "Poppins";
   display: flex;
   justify-content: space-between;
   padding-top: 1rem; }
@@ -139,7 +140,7 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
@@ -150,7 +151,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/Art-2-1024x991.jpg") no-repeat center right/cover;
+  background: url("../img/activities/7.jpg") no-repeat center right/cover;
   height: 90vh;
   color: #fff;
   opacity: 0.9; }
@@ -162,7 +163,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/Art-2-1024x991.jpg") no-repeat 20% 30%/cover;
+  /*background: url("../img/activities/11.jpg") no-repeat 20% 30%/cover;*/
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
